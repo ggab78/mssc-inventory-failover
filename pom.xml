@@ -12,6 +12,11 @@
     <groupId>com.gabriel</groupId>
     <artifactId>mssc-beer-inventory-failover</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-zipkin</artifactId>
+    </dependency>
+</dependencies>
 
 </project>
