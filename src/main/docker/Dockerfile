@@ -9,6 +9,7 @@ LABEL PROJECT_NAME=${project.artifactId} \
 
 EXPOSE 8080
 
+
 WORKDIR application
 COPY --from=builder application/dependencies/ ./
 COPY --from=builder application/spring-boot-loader/ ./
